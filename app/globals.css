@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ABeeZee", sans-serif;
+}
+
+.black-btn{
+  @apply py-3 px-8 bg-black text-white hover:-translate-y-1 hover:scale-110;
+}
+
+.orange-text{
+  @apply uppercase text-orange text-sm;
+}
+
+.heading{
+  @apply font-extrabold text-4xl mb-4;
+}
+
+.sub-heading{
+  @apply ml-2 font-bold capitalize;
+}
+
+.paragraph{
+  @apply text-sm leading-8;
+}
+
+.text-small{
+  @apply text-xs capitalize;
+}
+
+.padding-container{
+  @apply px-6 lg:px-28;
+}
+
+.red-background{
+  @apply absolute z-[-1];
+}
+
+.margin-container{
+  @apply mx-8 lg:mx-14 xl:mx-20
+}
+
+
+
